@@ -1,0 +1,28 @@
+---
+title: 김지윤 에세이
+description: 김지윤
+lang: ko-KR
+url: https://mskim.github.io
+theme: jekyll-vitepress-theme
+plugins:
+- jekyll-vitepress-theme
+excerpt_separator: ''
+collections:
+  chapters:
+    output: true
+    permalink: "/:name/"
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+jekyll_vitepress:
+  branding:
+    site_title: 김지윤 에세이
+  labels:
+    outline: 이 쪽의 내용
+    sidebar_menu: 목차
+    return_to_top: 맨 위로
+    skip_to_content: 본문으로
+    appearance_menu: 화면
+    switch_to_dark: 어두운 화면으로
